@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+}
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+nav a{
+    font-size: 13px;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(0,0,0,0.87);
+    cursor: pointer;
+    padding: 6px;
+}
+nav a:hover{
+   text-decoration: underline; 
+}
+nav img{
+    width: 34px;
+    padding: 5px;
+    margin: auto 7px;
+    cursor: pointer;
+}
+nav img:hover{
+    opacity: .8;
+}
+nav button{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+ul>a>ul>img{
+    padding: 0 8px;
+}
+.header-img:hover{
+    box-shadow: o o 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.logo{
+    margin:20px;
+    width: 98%;
+    text-align: center;
+    padding: 140px 0;
+}
+/* Input styling */
+input{
+    width: 582px;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border:1px solid #ccc;
+    background: url(../img1/micro.svg) no-repeat;
+    background-size: 23px ;
+    background-position: right 15px center;
+    
+}
+input:focus{
+    box-shadow: 2px 3px 4px 2px #ccc;
+    outline: none;
+}
+.search{
+    padding-top: 20px;
+}
+/* Buttons*/
+.btn-container{
+    margin-top: 10px;
+    padding: 0px 16px;
+
+}
+.btn{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    color:#5f6365;
+    margin-right: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+/* languages */
+div.languages{
+    margin-top: 28px;
+}
+ol.languages{
+    list-style: none;
+}
+
+ol.languages li{
+    font-size: 13px;
+    display: inline;
+    margin-right: 10px;
+   
+}
+ol.languages li>a{
+    text-decoration: none;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer-1 ol li{
+    position: fixed;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ol li{
+    display:inline;
+    padding-right: 15px ;
+    color: #676767;
+    font-size: 14px;
+}
